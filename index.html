@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trang Portfolio cá nhân của [Tên Của Bạn], nhà phát triển web chuyên nghiệp với kỹ năng trong HTML, CSS, JavaScript và React.js.">
+  <meta name="keywords" content="Portfolio, Web Developer, [Tên Của Bạn], HTML, CSS, JavaScript, React.js">
+  <title>Trang Portfolio - [Tên Của Bạn]</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Thêm Google Fonts nếu cần -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Thêm Font Awesome để sử dụng icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#home">[Tên Của Bạn]</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">Giới Thiệu</a></li>
+        <li><a href="#projects">Dự Án</a></li>
+        <li><a href="#contact">Liên Hệ</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Giới Thiệu -->
+  <section id="about">
+    <div class="container">
+      <h1>Xin Chào, Tôi Là [Tên Của Bạn]</h1>
+      <p>Một nhà phát triển web với đam mê tạo ra các ứng dụng web tương tác và hiện đại. Tôi có kinh nghiệm trong việc xây dựng các dự án sử dụng HTML, CSS, JavaScript, và các framework như React.js.</p>
+      <img src="images/profile.jpg" alt="Ảnh Cá Nhân" class="profile-img">
+      <div class="skills">
+        <h2>Kỹ Năng</h2>
+        <ul>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>Git & GitHub</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dự Án -->
+  <section id="projects">
+    <div class="container">
+      <h2>Các Dự Án Đã Thực Hiện</h2>
+      <div class="project-list">
+        <!-- Dự Án 1 -->
+        <div class="project-item">
+          <img src="images/project1.png" alt="Dự Án 1" class="project-img">
+          <h3>Dự Án 1: Web Tương Tác Thời Tiết</h3>
+          <p>Ứng dụng web hiển thị thông tin thời tiết theo vị trí của người dùng với giao diện đẹp mắt và tương tác mượt mà.</p>
+          <p>Công nghệ sử dụng: HTML, CSS, JavaScript, API Thời Tiết</p>
+          <a href="https://github.com/[Tên Người Dùng]/weather-app" target="_blank">Xem Dự Án</a>
+        </div>
+        <!-- Dự Án 2 -->
+        <div class="project-item">
+          <img src="images/project2.png" alt="Dự Án 2" class="project-img">
+          <h3>Dự Án 2: Blog Cá Nhân</h3>
+          <p>Tạo một blog cá nhân với khả năng đăng bài, chỉnh sửa, và xóa bài viết. Giao diện người dùng thân thiện và dễ sử dụng.</p>
+          <p>Công nghệ sử dụng: React.js, Node.js, Express, MongoDB</p>
+          <a href="https://github.com/[Tên Người Dùng]/personal-blog" target="_blank">Xem Dự Án</a>
+        </div>
+        <!-- Thêm các dự án khác tương tự -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Liên Hệ -->
+  <section id="contact">
+    <div class="container">
+      <h2>Liên Hệ</h2>
+      <form action="https://formspree.io/f/[your_form_id]" method="POST">
+        <div class="form-group">
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="_replyto" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Tin Nhắn:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Gửi</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/[Tên Người Dùng]" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/[Tên Người Dùng]" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://twitter.com/[Tên Người Dùng]" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 [Tên Của Bạn]. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
